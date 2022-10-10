@@ -5,8 +5,8 @@ namespace DesafioPOO.Models
         public string Numero { get; set; }
         private string Modelo { get; set; }
         private string IMEI { get; set; }
-        private string Memoria { get; set; }
-        public Smartphone(string numero, string modelo, string imei, string memoria)
+        private int Memoria { get; set; }
+        public Smartphone(string numero, string modelo, string imei, int memoria)
         {
             Numero = numero;
             Modelo = modelo;
